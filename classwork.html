@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px;
+}
+
+/* this is to style the navigation */
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #919DAB;
+}
+
+/* this aaproach allows multiple buttons to share common features instead duplicating them */
+.btn-log, .btn-sign, .p-btn, .l-btn {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background: #25DAC5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-sign, .l-btn {
+    background: #fff;
+    color: #919DAB;
+}
+
+.l-btn {
+    color: #25DAC5;
+    font-weight: 700;
+}
+
+.btn-log:hover {
+    background: #fff;
+    color: #25DAC5;
+    border: 1px solid #25DAC5;
+}
+
+.btn-sign:hover, .l-btn:hover {
+    background: #25DAC5;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.l-btn:hover {
+    padding: 10px 90px;
+    margin-top: 10px;
+}
+
+.p-btn {
+    padding: 10px 60px;
+    margin: 50px 0 0 0;
+}
+
+.se-img {
+    margin: 3px 0 0 0;
+}
+
+.se-img img {
+    width: 70%;
+}
+
+.logo-img, .cta {
+    margin: 12px 0 0 0;
+}
+
+/* this is to style the hero section */
+
+.hero {
+    margin: 20px 70px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #1E0E62;
+    margin: 0;
+}
+
+.hero p {
+    color: #15143966;
+    font-weight: 600;
+}
+
+/* this is to style the content area */
+.content {
+    background: url('./assets/Image.png') no-repeat center center /cover;
+    background-color: #2F1893;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.content-text {
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    left: 230px;
+}
+
+.content-text h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.content-text p {
+    color: #ffffff80;
+    font-size: 14px;
+}
+
+ /* features styling */
+.features {
+    position: relative;
+    margin: 30px 0;
+}
+
+.feature-right img {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.feature-left h3, .feature-left h5 {
+    color: #1E0E62;
+}
+
+.feature-left p {
+    color: #1514393d;
+    font-size: 11px;
+}
+
+.feature-left {
+    padding: 6% 0 0 15%;
+}
+
+.chec {
+    width: 10px;
+    margin-right: 10px;
+}
