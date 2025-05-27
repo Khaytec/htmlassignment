@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 70px;
+}
+
+body {
+  background-color: #2f1893;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 15px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sign-btn {
+  border: none;
+  border-radius: 50px;
+  background-color: #482be7;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.startup3 {
+  margin-top: 20px;
+}
+
+/* heroscetion in css */
+
+.herosection {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.send-btn {
+  background-color: #25dac5;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.email {
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  width: 250px;
+  background-color: #2f1893;
+}
+
+.smallsection {
+  font-size: x-small;
+  color: #919dab;
+}
